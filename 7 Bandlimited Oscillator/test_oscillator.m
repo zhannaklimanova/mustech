@@ -1,7 +1,7 @@
 f0s = logspace(1.75, 3.75, 10);
 fs = 44100; 
 frequency =f0s(10);
-a = 2.5;
+a = 2.6;
 wave = get_oscillator(a, frequency, fs);
 
 block_wave = wave(1: 2^14);
